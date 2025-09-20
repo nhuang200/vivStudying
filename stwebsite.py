@@ -13,6 +13,7 @@ def main():
 
     # Title
     st.title("Hi Viv! Good Job Studying SO hard! I LOVE YOU!!")
+    st.image("https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyYTgzbnU0ZjgxcGpqaGZhZWVjMGYyZGl6eHdmNDVvdDU3ZHh4ajdodyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KztT2c4u8mYYUiMKdJ/giphy.gif", width=400, caption="You're doing great!")
 
     # Display chat history
     for message in st.session_state.messages:
@@ -35,7 +36,8 @@ def main():
             with st.spinner("Thinking..."):
                 try:
                     # Display answer
-                    st.markdown("I LOVE YOU")  # Just a fixed message
+                    st.markdown("I LOVE YOU") 
+                    # Just a fixed message
 
                     # Save to history (including sources if needed)
                     st.session_state.messages.append({
