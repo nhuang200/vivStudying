@@ -37,6 +37,7 @@ def main():
                 try:
                     # Display answer
                     st.markdown("I LOVE YOU") 
+                    st.balloons()
                     # Just a fixed message
 
                     # Save to history (including sources if needed)
