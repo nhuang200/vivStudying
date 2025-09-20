@@ -12,7 +12,7 @@ def main():
         st.session_state.messages = []
 
     # Title
-    st.title("Hi Viv! Good Job Studying SO hard! I LOVE YOU!!")
+    st.title("Hi Viv! Good Job Studying SO hard! 💖💖💖I LOVE YOU!!💖💖💖💖💖🥰🥰😍💝💝💓💓❤️‍🔥❤️‍🔥❤️‍🔥💕💕💕💕💞💞💞💞💞🧡💛💚💙💜🤎🖤🤍")
     st.image("https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyYTgzbnU0ZjgxcGpqaGZhZWVjMGYyZGl6eHdmNDVvdDU3ZHh4ajdodyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KztT2c4u8mYYUiMKdJ/giphy.gif", width=400, caption="You're doing great!")
 
     # Display chat history
@@ -36,7 +36,7 @@ def main():
             with st.spinner("Thinking..."):
                 try:
                     # Display answer
-                    st.markdown("**I LOVE YOU**") 
+                    st.markdown("**I LOVE YOU💖💖**") 
                     st.balloons()
                     # Just a fixed message
 
